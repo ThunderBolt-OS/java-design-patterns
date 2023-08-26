@@ -34,6 +34,7 @@ class Shape {
 
 public class Main {
     public static void main(String[] args) {
+        // here i cant use new Shape() because constructor is private
         Shape circle = Shape.getInstance(); // get singleton instance
         circle.setShapeType("Circle"); // set shape type
         circle.draw(); // draw shape
